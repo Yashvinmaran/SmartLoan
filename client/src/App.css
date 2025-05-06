@@ -1,0 +1,99 @@
+/* client/src/App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  padding: 20px; /* Add some padding around the main container */
+}
+
+.app-header {
+  background-color: #007bff; /* Primary blue color for header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.app-header p {
+  font-size: 1.1em;
+  opacity: 0.8;
+}
+
+.app-main {
+  flex-grow: 1; /* Allow main content to take up remaining vertical space */
+  background-color: #f8f9fa; /* Light background for main content */
+  padding: 20px;
+  border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.app-footer {
+  background-color: #343a40; /* Dark background for footer */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 15px;
+  }
+
+  .app-header h1 {
+    font-size: 2em;
+  }
+
+  .app-main {
+    padding: 15px;
+  }
+
+  .app-footer {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+}
+/* client/src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 960px;
+}
+
+/* Mobile responsiveness for App container */
+@media (max-width: 600px) {
+  .app-container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 20px;
+  }
+}

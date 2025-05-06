@@ -1,0 +1,60 @@
+/* client/src/pages/UserDashboardPage.css */
+
+.user-dashboard-page {
+  padding: 20px;
+}
+
+.user-dashboard-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.loan-applications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.loan-applications-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.loan-applications-list li:last-child {
+  border-bottom: none;
+}
+
+/* client/src/pages/UserDashboardPage.css */
+
+/* ... (previous styles) ... */
+
+.payment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.payment-modal .card {
+  max-width: 400px;
+  text-align: center;
+}
+
+.payment-modal .card h2 {
+  margin-bottom: 15px;
+}
+
+.payment-modal .card p {
+  margin-bottom: 10px;
+}
+
+.payment-modal .card button {
+  margin: 0 10px;
+}

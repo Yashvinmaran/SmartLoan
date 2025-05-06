@@ -1,0 +1,42 @@
+/* client/public/style.css */
+
+/* Basic reset */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Reset default body margin */
+}
+
+#root {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px; /* Limit maximum width of the main container */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #root {
+        width: 95%;
+        margin: 15px;
+        padding: 20px;
+    }
+}
